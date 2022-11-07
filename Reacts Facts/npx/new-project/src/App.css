@@ -32,10 +32,6 @@
   width: 100px;
 }
 
-.AppContainer{
-  margin: 10px;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -43,4 +39,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu-container{
+  display: flex;
+  align-items: center;
+  margin: 0px 50px;
+}
+
+.mainContent{
+  padding: 0px 20px;
+}
+
+.nav-menu{
+  list-style: none;
+  display: flex;
+}
+
+.nav-menu li{
+  padding: 0px 15px;
+  cursor: pointer;
+}
+
+.header-container{
+  background-color: white;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.footerContainer{
+  background-color: #555455;
+  color: white;
+  padding: 10px;
+  font-weight: 500;
 }
